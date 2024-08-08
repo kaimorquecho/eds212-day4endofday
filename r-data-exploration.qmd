@@ -1,0 +1,23 @@
+---
+title: "r-data-exploration.qmd"
+author: "Kaiju"
+format: html
+---
+library(tidyverse)
+library(skimr)
+library(GGally)
+```{r}
+library(tidyverse)
+library(skimr)
+library(GGally)
+
+
+view(diamonds)
+
+names(diamonds)
+dim(diamonds)
+
+
+
+```
+
