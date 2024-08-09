@@ -16,7 +16,14 @@ view(diamonds)
 
 names(diamonds)
 dim(diamonds)
+summary(diamonds)
+head(diamonds)
+tail(diamonds)
 
+
+GGally::ggpairs(diamonds)
+ggplot(data = diamonds, x = 'carat', y = 'price', aes(x = carat)) +
+  geom_histogram()
 
 
 ```
